@@ -1,1 +1,39 @@
+# IAM Strategic Consultant – Portfolio Overview  
+Evangélista Kristina Bussy-B. │ Brussels │ 2024-2025
+
+### Target role
+IAM Consultant / Senior Consultant – Advisory (Big4 & Consulting firms)  
+Functional & strategic profile in successful career transition to Identity & Access Management  
+→ Immediately operational on client deliverables (BRD, gap analysis, target operating model, RACI, regulatory mapping NIS2/DORA/GDPR)
+
+### Why this portfolio is credible (zero professional IAM experience)
+- 100 % self-taught on market-leading solutions (CyberArk, SailPoint, Okta, Microsoft Entra ID, Wallix)  
+- 3 complete, production-grade study cases built exactly like real Big4 engagements  
+- Methodology and deliverables identical to Big4 standards (full lifecycle, regulatory-driven, KPIs, client-ready artefacts)
+
+### Skills demonstrated – Direct match with KPMG job descriptions
+
+| Required skill                            | Level achieved in portfolio                | Study Case                              |
+|-------------------------------------------|----------------------------------------|-----------------------------------------|
+| IAM Strategy & Regulatory Compliance      | Expert                                 | All 3 cases (NIS2/DORA/GDPR/ISO 27001) |
+| Privileged Access Management (PAM)        | Full lifecycle (discovery → hypercare) | CyberArk – FinClear (current repo)     |
+| Identity Governance & Administration     | Design, workflows, integrations        | SailPoint + Okta – Hospital            |
+| Zero Trust Architecture                   | Target models + control mapping        | All cases                              |
+| Cloud Identity & Migration                | Entra ID governance & migration        | Microsoft Cloud – Energy Utilities     |
+| Big4 client deliverables                  | 15+ templates (BRD, RACI, Roadmap…)    | All cases                              |
+
+### Available study cases (all public or ready to be published)
+
+| # | Title                                               | Main solutions                         | Focus                                  | Status       |
+|---|-----------------------------------------------------|----------------------------------------|----------------------------------------|--------------|
+| 1 | CyberArk PAM – Zero Trust Implementation            | CyberArk + SailPoint + Entra ID + Splunk | Full PAM lifecycle + NIS2/DORA        | 100 % complete (this repository) |
+| 2 | Hospital IAM Programme – IGA & CIAM                 | SailPoint IIQ/IDN + Okta + Wallix      | Governance + Customer Identity + GDPR | 95 % complete  |
+| 3 | Microsoft Cloud Identity Migration – Energy Sector  | Microsoft Entra ID (MIM → Entra)       | Cloud migration + regulatory alignment| 90 % complete  |
+
+### Background & certifications
+- Certified IT Project Management Professional – TechnofuturTIC  
+- Currently preparing CyberArk Trustee and SailPoint IdentityNow certifications  
+- Proven stakeholder management & process optimization in regulated environments (healthcare sector)
+
+Languages: French (native) – English (full professional) – Dutch (basic)
 
