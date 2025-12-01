@@ -1,0 +1,40 @@
+# Data quality report 
+
+## Objective 
+Ensure that data is reliable before onboarding, avoiding importing obsolete accounts into CyberArk.
+
+**Business impact of poor data quality**  
+
+Without this clean-up, FinClear would have imported ~120 obsolete or unjustified accounts into CyberArk, creating immediate audit findings (shared/orphan accounts) and false positives in session monitoring.
+
+## Approach 
+From an IAM Business Analyst's perspective, data quality reporting is essential to ensure the reliability of information prior to onboarding into CyberArk. I oversaw this analysis to identify and correct inconsistencies in the AS-IS ecosystem (Workday, Sailpoint, Entra ID, AD, Splunk).
+
+### Data quality rules 
+
+I have defined rules based on standard dimensions (DAMA):
+
+- **Completeness:** All AD accounts must have an EmployeeID linked to Workday (threshold: 95%).
+- **Uniqueness:** No duplicates in account or group names (detection via SQL DISTINCT).
+- **Validity:** High privileges must be justified by an active department (AD-HR cross-check).
+- **Timeliness:** Accounts inactive for >90 days (Splunk logs) marked as orphaned.
+- **Consistency:** Alignment between AD and Sailpoint for roles (verification via API).
+These rules were applied via SQL scripts joining the Workday and AD databases.
+
+### Metrics 
+
+| Data Quality Dimension | Current Score | Accounts impacted | Link to CyberArk control       | Recommendation                  |
+|------------------------|---------------|-------------------|--------------------------------|---------------------------------|
+| Completeness           | 92 %          | 68 accounts       | BR-01 – avoid onboarding orphans | Assign owner or disable        |
+| Uniqueness             | 98 %          | 17 duplicates     | BR-01 – safe management          | Merge or delete                |
+| Validity               | 85 %          | 128 unjustified   | BR-02 – JIT + dual approval      | Remove permanent rights        |
+| Timeliness             | 88 %          | 102 inactive >90j | BR-01 + BR-03                    | Quarantine + disable           |
+| **Overall score**      | **90.6 / 100**| **~120 accounts to clean** |
+
+### Decision
+All 120 accounts identified have been excluded from initial CyberArk onboarding or placed in a dedicated “Quarantine Safe” (Wave 0).  
+Clean data set ready for BR-01 semi-automated onboarding (see section 2).
+
+## Tools used 
+- SQL
+- Splunk logs
