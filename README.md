@@ -12,7 +12,7 @@ Close the three highest privileged-access risks in an already mature IAM ecosyst
 3. No session recording or audit trail → compliance findings
 
 **Target state (after this programme)**
-- >95 % of privileged accounts onboarded & rotated
+- (>95 %) of privileged accounts onboarded & rotated
 - 100 % Just-In-Time elevation with dual approval
 - 100 % of privileged sessions recorded and exported to Splunk
 
@@ -25,4 +25,5 @@ Close the three highest privileged-access risks in an already mature IAM ecosyst
 
 Key visuals ↓
 [![Executive Summary](Diagrams_Overview/00_Executive_Summary_Preview.png)](0_Context_&_Executive_Summary/Executive_Summary.pdf)
+
 [![Target Architecture](Diagrams_Overview/01_Target_Architecture.png)](Diagrams_Overview/01_Target_Architecture.png)
