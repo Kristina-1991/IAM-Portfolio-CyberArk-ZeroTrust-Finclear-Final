@@ -51,6 +51,7 @@ Full audit trail and controls aligned with ISO 27001 (A.8/A.9/A.12), NIS2, DORA,
 • GCP & legacy platforms  
 • Enterprise-wide recertification campaigns
 
-**My role** : IAM Senior Business Analyst – Proxy Product Owner, Scrum Master, UAT Coordinator, Change Lead, Hypercare Lead
+**My role** : IAM Business strategic Analyst – Proxy Product Owner, Scrum Master, UAT Coordinator, Change Lead, Hypercare Lead
 
 **This portfolio demonstrates end-to-end delivery of a regulated, high-impact PAM Wave 1 – from requirements to run – with zero production incidents and full CISO sign-off.**
+
