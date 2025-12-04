@@ -25,7 +25,7 @@
 | Wave 2 | OT/SCADA, legacy, full GCP, IoT at scale         | Q3 2026       | Full completion to 100 % |
 
 ### My Role Throughout Wave 1
-**IAM Senior Business Analyst**  
+**IAM Business strategic Analyst**  
 - Proxy Product Owner + Scrum Master  
 - BRD, backlog & DoD author  
 - UAT Coordinator (12 scenarios)  
@@ -40,3 +40,4 @@
 BRD → Agile delivery → Environment readiness → UAT → Go-live → Hypercare → BAU handover.
 
 All following sections are real extracts and evidence from this successful Wave 1 delivery.
+
