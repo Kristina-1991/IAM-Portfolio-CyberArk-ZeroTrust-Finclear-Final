@@ -1,14 +1,14 @@
-# 1. Introduction & Business Context  
+# Introduction & Business Context  
 **Programme** : FinClear – CyberArk Privileged Access Management  
 **Portfolio focus** : Complete and successful delivery of **Wave 1** (Oct–Dec 2025)
 
-### 1.1 The Organisation
+### The Organisation
 - Brussels-based financial market infrastructure (CSD + post-trade services)  
 - ~4 500 employees, 21 offices, hybrid/multi-cloud environment  
 - Highly regulated → ISO 27001 certified, NIS2 & DORA applicable from January 2025  
 - Identity stack : Workday → SailPoint IIQ → Entra ID/AD + Okta (IDP) + Splunk (SIEM)
 
-### 1.2 Key Triggers (2024)
+### Key Triggers (2024)
 | Event                                 | Consequence                                      | Board decision |
 |---------------------------------------|--------------------------------------------------|----------------|
 | 2 privileged-account incidents (Q2/Q3)| Potential €750k exposure + operational outage    | Launch accelerated PAM programme |
@@ -17,14 +17,14 @@
 
 → Decision: 24-month PAM programme with **accelerated Wave 1 in 2025** on highest-risk assets.
 
-### 1.3 Wave Strategy (Why this portfolio focuses on Wave 1 only)
+### Wave Strategy (Why this portfolio focuses on Wave 1 only)
 
 | Wave | Scope                                            | Go-live       | Risk reduction priority |
 |------|--------------------------------------------------|---------------|-------------------------|
 | **Wave 1** (this portfolio) | Windows, Linux, SQL/Oracle DB, Azure foundational (~700 high-risk accounts) | **20 October 2025** | Immediate reduction of critical risks |
 | Wave 2 | OT/SCADA, legacy, full GCP, IoT at scale         | Q3 2026       | Full completion to 100 % |
 
-### 1.4 My Role Throughout Wave 1
+### My Role Throughout Wave 1
 **IAM Senior Business Analyst**  
 - Proxy Product Owner + Scrum Master  
 - BRD, backlog & DoD author  
