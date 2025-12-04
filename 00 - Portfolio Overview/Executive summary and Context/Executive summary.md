@@ -1,43 +1,56 @@
-# 1. Introduction & Context  
-**Programme** : FinClear – CyberArk Privileged Access Management (2025–2026)  
-**Portfolio focus** : Successful delivery of **Wave 1** (foundational on-prem + Azure)
+# Executive Summary – CyberArk PAM Programme (Wave 1)
 
-### 1.1 Organisation & environment
-- Brussels-based post-trade financial institution  
-- Highly regulated context → ISO 27001 certified, NIS2 & DORA applicable from 2025  
-- Hybrid & multi-cloud environment  
-  - Identity stack      : Workday → SailPoint IIQ → Entra ID / AD  
-  - Authentication     : Okta (IDP) – SAML/OIDC + MFA  
-  - Monitoring         : Splunk Enterprise Security  
-  - ~4 500 employees, ~1 200 privileged accounts identified (human + non-human)
+**Organisation** : FinClear – Brussels-based post-trade financial institution  
+**Context 2024** : Internal audit + two privileged-account incidents → critical gaps identified  
+• Manual onboarding (3+ days, 20 % errors)  
+• Shared & orphan accounts (~18 %)  
+• No session recording or approval workflow  
+• Compliance findings (ISO 27001, NIS2, DORA)
 
-### 1.2 2024 triggers – Why the programme was launched
-| Event                                    | Impact                                          | Regulatory finding          |
-|------------------------------------------|--------------------------------------------------|-----------------------------|
-| Two privileged-account incidents (Q2/Q3) | €750 k potential exposure + operational outage   | DORA Art. 25 breach risk    |
-| Internal audit 2024                      | 18 % orphan/shared accounts, zero session recording | ISO 27001 A.8.3 / A.12.4    |
-| External regulator pre-assessment        | “Lack of JIT & dual control” = major finding    | NIS2 Art. 21                |
+**Programme objective**  
+Deliver foundational Privileged Access Management under Zero Trust principles: eliminate standing privileges, enforce JIT + dual approval, achieve full session auditability.
 
-→ Decision board (CISO + CIO) → launch:**launch a 24-month PAM programme with accelerated Wave 1 in 2025**
+**Delivery approach – two phases**  
+**Phase 0** – Discovery & reconciliation (BR-00) → reliable inventory + owner assignment  
+**Phase 1** – Core controls rollout (Oct 2025)  
+ • BR-01 Semi-automated onboarding (Discovery → Pending → Safe/Platform)  
+ • BR-02 Just-In-Time elevation with mandatory dual approval & auto-revocation  
+ • BR-03 100 % session isolation & recording (PSM) + Splunk ingestion
 
-### 1.3 Programme governance (high-level)
-| Role                  | Name               | Responsibility                              |
-|-----------------------|--------------------|---------------------------------------------|
-| Sponsor               | CISO               | Budget, risk acceptance, final sign-off     |
-| Programme Manager     | Head of Cyber      | Planning, budget, steering committee        |
-| Product Owner (proxy) | **Me – IAM Senior BA** | Backlog, priorities, evidence owner         |
-| Technical Lead        | CyberArk Architect | Solution design, integration                |
+**Wave strategy**  
+**Wave 1 (focus of this portfolio)** – Go-live 20 October 2025  
+ 700+ high-risk accounts (Windows, Linux, SQL/Oracle DB, Azure foundational)  
+**Wave 2 (2026)** – OT/SCADA, full cloud, legacy systems
 
-### 1.4 Wave strategy (the reason this portfolio focuses on Wave 1 only)
+**Key results – Wave 1 (Dec 2025)**  
+| KPI                                    | Target 2025 | Actual Dec 2025 | Target 2026 |
+|----------------------------------------|-------------|-----------------|-------------|
+| % privileged accounts in CyberArk      | ≥ 95 %      | 96.8 %          | 100 %       |
+| % sessions via JIT (no standing rights)| ≥ 90 %      | 93 %            | 100 %       |
+| % sessions recorded & searchable       | 100 %       | 100 %           | 100 %       |
+| Orphan accounts                        | ≤ 5 %       | 1.8 %           | 0 %         |
+| Avg JIT approval time                  | ≤ 15 min    | 11 min          | ≤ 5 min     |
 
-| Wave | Scope                                      | Go-live   | Risk reduction priority |
-|------|--------------------------------------------|-----------|-------------------------|
-| **Wave 1** (this portfolio) | Windows, Linux, SQL/Oracle, Azure foundational (~700 high-risk accounts) | **20 Oct 2025** | Highest (critical servers & cloud landing zones) |
-| Wave 2 | OT/SCADA, legacy, full GCP, IoT at scale   | Q3 2026   | Medium → Low            |
+**Delivery highlights**  
+• 6-week Scrum delivery (3 sprints)  
+• 8/8 environment readiness checks passed  
+• 12 UAT scenarios – 100 % pass – CISO sign-off  
+• 6-week hypercare with 24/7 rota → zero severity-1 incidents  
+• Full handover to BAU – 1 December 2025
 
-**Result after Wave 1** → 96.8 % of high-risk accounts under control, zero production incidents, full audit trail → **programme declared “on track” by the regulator in Dec 2025**.
+**Compliance & standards**  
+Full audit trail and controls aligned with ISO 27001 (A.8/A.9/A.12), NIS2, DORA, GDPR.
 
-**This portfolio covers the complete end-to-end journey of Wave 1**:  
-BRD → Agile delivery → Environment readiness → UAT → Go-live → Hypercare → Handover to BAU.
+**Scope Wave 1 – In**  
+• Windows, Linux, Oracle/SQL DB, Azure (foundational)  
+• Human + service accounts, break-glass  
+• Integrations: SailPoint ↔ CyberArk, Entra ID, Splunk, SAML/OIDC PVWA
 
-All following sections are real extracts and evidence from this successful Wave 1 delivery.
+**Scope Wave 1 – Out / Deferred**  
+• Full IoT/SCADA fleet (pilot only)  
+• GCP & legacy platforms  
+• Enterprise-wide recertification campaigns
+
+**My role** : IAM Senior Business Analyst – Proxy Product Owner, Scrum Master, UAT Coordinator, Change Lead, Hypercare Lead
+
+**This portfolio demonstrates end-to-end delivery of a regulated, high-impact PAM Wave 1 – from requirements to run – with zero production incidents and full CISO sign-off.**
