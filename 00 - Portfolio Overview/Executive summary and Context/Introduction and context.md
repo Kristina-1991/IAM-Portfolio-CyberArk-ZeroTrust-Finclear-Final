@@ -34,10 +34,14 @@
 - End-to-end evidence owner
 
 **Wave 1 Results (December 2025)**  
-96.8 % critical accounts under control · 100 % sessions recorded · zero production incidents · handover signed by CISO.
+- 96.8 % critical accounts under control
+- 100 % sessions recorded
+- zero production incidents
+- handover signed by CISO.
 
 **This portfolio covers the complete end-to-end journey of Wave 1**:  
 BRD → Agile delivery → Environment readiness → UAT → Go-live → Hypercare → BAU handover.
 
 All following sections are real extracts and evidence from this successful Wave 1 delivery.
+
 
