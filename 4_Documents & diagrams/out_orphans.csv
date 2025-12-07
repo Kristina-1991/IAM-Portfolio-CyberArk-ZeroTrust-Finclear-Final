@@ -1,0 +1,4 @@
+SamAccountName,DisplayName,EmployeeID,Enabled
+eve.contractor,Eve Contractor,E007,0
+root.sharedadmin,Shared Admin,,1
+svc_backup,Backup Service,,1
