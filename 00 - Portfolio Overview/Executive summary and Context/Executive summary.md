@@ -19,7 +19,7 @@ Deliver foundational Privileged Access Management under Zero Trust principles: e
 
 **Wave strategy**  
 **Wave 1 (focus of this portfolio)** – Go-live 20 October 2025  
- 700+ high-risk accounts (Windows, Linux, SQL/Oracle DB, Azure foundational)  
+700+ high-risk accounts (Windows, Linux, SQL/Oracle DB, Azure foundational)  
 **Wave 2 (2026)** – OT/SCADA, full cloud, legacy systems
 
 **Key results – Wave 1 (Dec 2025)**  
@@ -54,4 +54,5 @@ Full audit trail and controls aligned with ISO 27001 (A.8/A.9/A.12), NIS2, DORA,
 **My role** : IAM Business strategic Analyst – Proxy Product Owner, Scrum Master, UAT Coordinator, Change Lead, Hypercare Lead
 
 **This portfolio demonstrates end-to-end delivery of a regulated, high-impact PAM Wave 1 – from requirements to run – with zero production incidents and full CISO sign-off.**
+
 
