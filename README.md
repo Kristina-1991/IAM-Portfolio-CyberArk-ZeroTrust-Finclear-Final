@@ -23,7 +23,3 @@ Close the three highest privileged-access risks in an already mature IAM ecosyst
 3. Onboarding Waves & Scale – phased rollout (servers → DB → cloud → SaaS → OT pilot)  
 4. Run – Operating Model, RACI, KPIs, hypercare
 
-Key visuals ↓
-[![Executive Summary](Diagrams_Overview/00_Executive_Summary_Preview.png)](0_Context_&_Executive_Summary/Executive_Summary.pdf)
-
-[![Target Architecture](Diagrams_Overview/01_Target_Architecture.png)](Diagrams_Overview/01_Target_Architecture.png)
