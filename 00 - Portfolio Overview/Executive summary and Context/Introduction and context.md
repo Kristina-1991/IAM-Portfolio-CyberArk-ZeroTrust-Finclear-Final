@@ -26,7 +26,7 @@
 
 ### My Role Throughout Wave 1
 **IAM Business strategic Analyst**  
-- Proxy Product Owner + Scrum Master  
+- Proxy Product Owner 
 - BRD, backlog & DoD author  
 - UAT Coordinator (12 scenarios)  
 - Change Management Lead (ADKAR)  
@@ -42,6 +42,6 @@
 **This portfolio covers the complete end-to-end journey of Wave 1**:  
 BRD → Agile delivery → Environment readiness → UAT → Go-live → Hypercare → BAU handover.
 
-All following sections are real extracts and evidence from this successful Wave 1 delivery.
+
 
 
