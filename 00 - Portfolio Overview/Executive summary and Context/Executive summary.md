@@ -13,9 +13,9 @@ Deliver foundational Privileged Access Management under Zero Trust principles: e
 **Delivery approach – two phases**  
 **Phase 0** – Discovery & reconciliation (BR-00) → reliable inventory + owner assignment  
 **Phase 1** – Core controls rollout (Oct 2025)  
- • BR-01 Semi-automated onboarding (Discovery → Pending → Safe/Platform)  
+ • BR-01 Semi-automated onboarding after running the Discovery scan to access high critical resources (Discovery → Pending → Safe/Platform)  
  • BR-02 Just-In-Time elevation with mandatory dual approval & auto-revocation  
- • BR-03 100 % session isolation & recording (PSM) + Splunk ingestion
+ • BR-03 100 % session isolation & recording (PSM) + automatic SIEM integration 
 
 **Wave strategy**  
 **Wave 1 (focus of this portfolio)** – Go-live 20 October 2025  
@@ -26,10 +26,10 @@ Deliver foundational Privileged Access Management under Zero Trust principles: e
 | KPI                                    | Target 2025 | Actual Dec 2025 | Target 2026 |
 |----------------------------------------|-------------|-----------------|-------------|
 | % privileged accounts in CyberArk      | ≥ 95 %      | 96.8 %          | 100 %       |
-| % sessions via JIT (no standing rights)| ≥ 90 %      | 93 %            | 100 %       |
+| % sessions via Duak approval and JIT (no standing rights)| ≥ 90 %      | 93 %            | 100 %       |
 | % sessions recorded & searchable       | 100 %       | 100 %           | 100 %       |
 | Orphan accounts                        | ≤ 5 %       | 1.8 %           | 0 %         |
-| Avg JIT approval time                  | ≤ 15 min    | 11 min          | ≤ 5 min     |
+| Avg Dual approval time                 | ≤ 15 min    | 11 min          | ≤ 5 min     |
 
 **Delivery highlights**  
 • 6-week Scrum delivery (3 sprints)  
@@ -51,8 +51,9 @@ Full audit trail and controls aligned with ISO 27001 (A.8/A.9/A.12), NIS2, DORA,
 • GCP & legacy platforms  
 • Enterprise-wide recertification campaigns
 
-**My role** : IAM Business strategic Analyst – Proxy Product Owner, Scrum Master, UAT Coordinator, Change Lead, Hypercare Lead
+**My role** : IAM Business strategic Analyst – Proxy Product Owner, UAT Coordinator, Change Lead, Hypercare Lead
 
 **This portfolio demonstrates end-to-end delivery of a regulated, high-impact PAM Wave 1 – from requirements to run – with zero production incidents and full CISO sign-off.**
+
 
 
