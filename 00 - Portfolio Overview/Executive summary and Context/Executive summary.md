@@ -13,7 +13,7 @@ Deliver foundational Privileged Access Management under Zero Trust principles: e
 **Delivery approach – two phases**  
 **Phase 0** – Discovery & reconciliation (BR-00) → reliable inventory + owner assignment  
 **Phase 1** – Core controls rollout (Oct 2025)  
- • BR-01 Semi-automated onboarding after running the Discovery scan to access high critical resources (Discovery → Pending → Safe/Platform)  
+ • BR-01 Semi-automated onboarding after running the Discovery scan (Discovery → Pending → Safe/Platform)  
  • BR-02 Just-In-Time elevation with mandatory dual approval & auto-revocation  
  • BR-03 100 % session isolation & recording (PSM) + automatic SIEM integration 
 
@@ -54,6 +54,7 @@ Full audit trail and controls aligned with ISO 27001 (A.8/A.9/A.12), NIS2, DORA,
 **My role** : IAM Business strategic Analyst – Proxy Product Owner, UAT Coordinator, Change Lead, Hypercare Lead
 
 **This portfolio demonstrates end-to-end delivery of a regulated, high-impact PAM Wave 1 – from requirements to run – with zero production incidents and full CISO sign-off.**
+
 
 
 
