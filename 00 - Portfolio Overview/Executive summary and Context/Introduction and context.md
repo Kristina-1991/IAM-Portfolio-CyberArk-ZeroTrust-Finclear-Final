@@ -5,7 +5,7 @@
 ### The Organisation
 - Brussels-based financial market infrastructure (CSD + post-trade services)  
 - ~4 500 employees, 21 offices, hybrid/multi-cloud environment  
-- Highly regulated → ISO 27001 certified, NIS2 & DORA applicable from January 2025  
+- Highly regulated → ISO 27001 certified, NIS2 & DORA (operationanl resilience enforcement - financial sector) applicable from January 2025  
 - Identity stack : Workday → SailPoint IIQ → Entra ID/AD + Okta (IDP) + Splunk (SIEM)
 
 ### Key Triggers (2024)
@@ -41,6 +41,7 @@
 
 **This portfolio covers the complete end-to-end journey of Wave 1**:  
 BRD → Agile delivery → Environment readiness → UAT → Go-live → Hypercare → BAU handover.
+
 
 
 
