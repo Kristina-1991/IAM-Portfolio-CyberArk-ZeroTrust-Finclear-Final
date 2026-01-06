@@ -28,8 +28,8 @@
 **IAM Business strategic Analyst**  
 - Proxy Product Owner 
 - BRD, backlog & DoD author  
-- UAT Coordinator (12 scenarios)  
-- Change Management Lead (ADKAR)  
+- Use Acceptance Testing Coordinator (12 scenarios)  
+- Change Management Lead  
 - Hypercare pilot & BAU handover  
 - End-to-end evidence owner
 
@@ -41,6 +41,7 @@
 
 **This portfolio covers the complete end-to-end journey of Wave 1**:  
 BRD → Agile delivery → Environment readiness → UAT → Go-live → Hypercare → BAU handover.
+
 
 
 
