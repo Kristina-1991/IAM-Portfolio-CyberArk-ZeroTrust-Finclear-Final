@@ -8,7 +8,10 @@
 • Compliance findings (ISO 27001, NIS2, DORA)
 
 **Programme objective**  
-Deliver foundational Privileged Access Management under Zero Trust principles: eliminate standing privileges, enforce JIT + dual approval, achieve full session auditability.
+Deliver foundational Privileged Access Management under Zero Trust principles: 
+- eliminate standing privileges,
+- enforce JIT + dual approval,
+- achieve full session auditability.
 
 **Delivery approach – two phases**  
 **Phase 0** – Discovery & reconciliation (BR-00) → reliable inventory + owner assignment  
