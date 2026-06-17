@@ -26,7 +26,7 @@ Deliver foundational Privileged Access Management under Zero Trust principles: e
 | KPI                                    | Target 2025 | Actual Dec 2025 | Target 2026 |
 |----------------------------------------|-------------|-----------------|-------------|
 | % privileged accounts in CyberArk      | ≥ 95 %      | 96.8 %          | 100 %       |
-| % sessions via Duak approval and JIT (no standing rights)| ≥ 90 %      | 93 %            | 100 %       |
+| % sessions via Dual approval and JIT (no standing rights)| ≥ 90 %      | 93 %            | 100 %       |
 | % sessions recorded & searchable       | 100 %       | 100 %           | 100 %       |
 | Orphan accounts                        | ≤ 5 %       | 1.8 %           | 0 %         |
 | Avg Dual approval time                 | ≤ 15 min    | 11 min          | ≤ 5 min     |
